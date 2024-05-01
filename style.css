@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: horizontal;
+  width: 70%;
+  background-color: bisque;
+  margin: 0px auto;
+  min-height: 100vh;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-container {
+  background-color: palevioletred;
+  width: 100%;
+}
+
+.class1 {
+  background-color: palegoldenrod;
+  height: 100%;
+  width: 100%;
+}
+
+.class2 {
+  background-color: palegreen;
+  height: 100%;
+  width: 100%;
+}
+
+.class3 {
+  background-color: paleturquoise;
+  height: 100%;
+  width: 100%;
+}
