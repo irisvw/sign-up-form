@@ -5,20 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.bunny.net">
-<link href="https://fonts.bunny.net/css?family=balsamiq-sans:400|noto-emoji:500" rel="stylesheet" />
+  <link href="https://fonts.bunny.net/css?family=balsamiq-sans:400|noto-emoji:500" rel="stylesheet" />
   <title>Sign up</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="main-container">
+
     <div class="left-container">
       <div class="logo">
         <span class="logo-symbol">😺</span> Humpy
       </div>
       <img src="humpy.jpg" alt="a cute black cat">
     </div>
+
     <div class="right-container">
+
       <section class="main-text-container">
         <div class="main-text">
           <p>Everyone needs more cat pictures in their lives.
@@ -26,40 +29,49 @@
           <p>You <em>know</em> you want them.</p>
         </div>
       </section>
+
       <section class="form-container">
-        <p>Let's do this!</p>
+        <h2>Let's do this!</h2>
         <form>
-          <div class="form-element">
-            <label for="first-name">First name</label>
-            <input type="text" id="first-name">
+          <div class="form-main">
+            <div class="form-element">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" required>
+            </div>
+            <div class="form-element">
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" required>
+            </div>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-element">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" required>
+            </div>
+            <div class="form-element">
+              <label for="password1">Password</label>
+              <input type="password" id="password1" required>
+            </div>
+            <div class="form-element">
+              <label for="password2">Confirm password</label>
+              <input type="password" id="password2" required>
+            </div>
           </div>
-          <div class="form-element">
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name">
+
+          <div class="form-footer">
+            <input type="submit" value="Create Account" />
+            <p>Already have an account? <a href="">Log in</a></p>
           </div>
-          <div class="form-element">
-            <label for="email">Email</label>
-            <input type="email" id="email">
-          </div>
-          <div class="form-element">
-            <label for="phone">Phone number</label>
-            <input type="tel" id="phone">
-          </div>
-          <div class="form-element">
-            <label for="password1">Password</label>
-            <input type="password" id="password1">
-          </div>
-          <div class="form-element">
-            <label for="password2">Confirm password</label>
-            <input type="password" id="password2">
-          </div>
+
         </form>
       </section>
-      <section class="footer-container"><input type="submit" value="Create Account"/>
-        <p>Already have an account? <a href="">Log in</a></p>
-      </section>
+      
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
