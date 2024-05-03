@@ -133,7 +133,7 @@ input:focus {
 
 
 /* footer container */
-button {
+input[type="submit"] {
   padding: 1rem 2rem;
   background-color: #5a7726;
   color: white;
@@ -141,6 +141,10 @@ button {
   border-radius: 10px;
   font-weight: bold;
   font-size: 16px;
+}
+
+input[type="submit"]:active {
+  background-color: #3b4e18;
 }
 
 .footer-container p {
